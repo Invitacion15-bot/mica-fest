@@ -5,7 +5,7 @@
 window.INVITACION = {
 
   // true muestra la cinta «Vista de demostración». Pon false al enviar.
-  demo: true,
+  demo: false,
 
   // ---------------- Portada ----------------
   nombre: "Mica",                       // se usa en el mensaje de WhatsApp
@@ -23,7 +23,7 @@ window.INVITACION = {
   fechaTexto: "Domingo 3 de enero de 2027",
 
   // ---------------- Familia ----------------
-  padres: ["Alexander Aguilar Ayaviri", "Micaela Toro Bobarin"],
+  padres: ["Alexander Aguilar Ayaviri", "Patricia Micaela Toro Bobarin"],
   padrinos: ["Wendy Toro Bobarin", "Alexander Aguilar Toro"],
 
   // ---------------- Lugar ----------------
@@ -33,7 +33,9 @@ window.INVITACION = {
     enlaceMaps: "https://maps.app.goo.gl/rsZy7WDxK629k8YA9"
   },
 
-  dressCode: "FORMAL",
+  dressCode: "Formal / Etiqueta",
+  dressNota: "El color rosa en todas sus tonalidades queda reservado exclusivamente para la quinceañera.",
+  dressGracias: "Agradecemos mucho su comprensión.",
 
   cronograma: [
     { hora: "15:00", icono: "🕰️", texto: "Recepción" },
@@ -55,15 +57,15 @@ window.INVITACION = {
   whatsapp: "34666803347",          // solo dígitos, con indicativo (34 = España)
 
   // ---------------- Fotos ----------------
-  // Las 4 actuales son ilustraciones genéricas. Reemplázalas por fotos reales
-  // subiéndolas junto a index.html (JPG, máx. 1600 px de ancho, < 400 KB).
-  fotoPortada: "foto-2.jpeg",       // foto tipo polaroid junto a la familia
-  fotoCuentaRegresiva: "foto-5.jpeg",
+  // Las fotos van sueltas junto a index.html, con estos nombres exactos.
+  fotoPortada: "foto-1.jpeg",          // foto tipo polaroid junto a la familia
+  fotoCuentaRegresiva: "foto-2.jpeg",  // fondo de la cuenta regresiva
   fotos: [
+    { src: "foto-1.jpeg", alt: "Mica" },
     { src: "foto-2.jpeg", alt: "Mica" },
-    { src: "foto-1.jpeg", alt: "Bola de discoteca" },
-    { src: "foto-3.jpeg", alt: "Tiara XV" },
-    { src: "foto-4.jpeg", alt: "Brindis" }
+    { src: "foto-3.jpeg", alt: "Mica" },
+    { src: "foto-4.jpeg", alt: "Mica" },
+    { src: "foto-5.jpeg", alt: "Mica" }
   ],
 
   // ---------------- Música de fondo ----------------
@@ -74,7 +76,7 @@ window.INVITACION = {
     { archivo: "i-love-it.mp3", titulo: "I Love It — Icona Pop" }
   ],
 
-   // ---------------- Confirmación ----------------
+  // ---------------- Confirmación ----------------
   // En el formulario cada invitado escribe cuántas personas van.
   // Este es el máximo que puede elegir (no se muestra en la invitación).
   maxPersonas: 10,
