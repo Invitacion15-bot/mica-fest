@@ -58,11 +58,11 @@ window.INVITACION = {
 
   // ---------------- Fotos ----------------
   // Las fotos van sueltas junto a index.html, con estos nombres exactos.
-  fotoPortada: "foto-1.jpeg",          // foto tipo polaroid junto a la familia
-  fotoCuentaRegresiva: "foto-2.jpeg",  // fondo de la cuenta regresiva
+  fotoPortada: "foto-2.jpeg",          // foto tipo polaroid junto a la familia
+  fotoCuentaRegresiva: "foto-5.jpeg",  // fondo de la cuenta regresiva
   fotos: [
-    { src: "foto-1.jpeg", alt: "Mica" },
     { src: "foto-2.jpeg", alt: "Mica" },
+    { src: "foto-1.jpeg", alt: "Mica" },
     { src: "foto-3.jpeg", alt: "Mica" },
     { src: "foto-4.jpeg", alt: "Mica" },
     { src: "foto-5.jpeg", alt: "Mica" }
